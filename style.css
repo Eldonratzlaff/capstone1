@@ -33,11 +33,11 @@ body {
 }
 
 .logo-li {
-    background-image: url(../capstone1/images/logo.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 10vh;
-    width: 12vh;
+  background-image: url(../capstone1/images/logo.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 10vh;
+  width: 12vh;
   color: white;
 }
 
@@ -90,7 +90,6 @@ body {
   font-size: 50px;
   font-weight: 600;
   margin-top: 8px;
-  margin-left: 10vw;
   color: rgb(180, 54, 54);
 }
 
@@ -108,12 +107,15 @@ body {
 }
 
 .top-date {
-  margin-top: 10px;
+  margin: 10px 0 10px 0;
   font-size: 25px;
   font-weight: 800;
   color: rgb(83, 81, 81);
 }
 
+.time {
+  margin: 1px;
+}
 
 /* program section */
 
@@ -152,7 +154,6 @@ h3 {
 
 .program-li:hover {
   background-color: rgb(66, 65, 65);
-  border: 3px 3px 8px rgb(126, 39, 39);
 }
 
 .program-icons-div {
@@ -335,59 +336,54 @@ h3 {
   background-image: url(../capstone1/images/img-airbnb.png);
 }
 
-.hamburger-page{
-    background-image: url(../capstone1/images/top-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* opacity: .8; */
-    background-color: black;
-    padding: 1px;
-    border-radius: 30px;
-    width: 80vw;
-    height: 80vh;
-    margin: 4vw 10vw;
-
-    display: none;
-    flex-direction: column;
-    background-color: antiquewhite;
-    position:fixed;
-    top: 0;
- 
-  
+.hamburger-page {
+  background-image: url(../capstone1/images/top-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1px;
+  border-radius: 30px;
+  width: 80vw;
+  height: 80vh;
+  margin: 4vw 10vw;
+  display: none;
+  flex-direction: column;
+  background-color: antiquewhite;
+  position: fixed;
+  top: 0;
 }
 
-.display{
-    display: flex;
+.display {
+  display: flex;
 }
 
-.x-btn{
-    margin: 4vh 0 0 60vw;
+.x-btn {
+  margin: 4vh 0 0 60vw;
   background-image: url(../capstone1/images/ic_cross.svg);
   background-repeat: no-repeat;
-    background-size: contain;
+  background-size: contain;
   background-position: center;
   width: 30px;
   height: 30px;
-    display: inline-block;
-    transition: .5s;
-}
-.x-btn:hover{
-    width: 60px;
-    height: 60px;
-}
-.hamburger-cont{
-   
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 70vh;
-}
-.hamburger-li{
-    font-size: 50px;
-
-}
-.hamburger-li:hover{
-    font-size: 60px;
-
+  display: inline-block;
+  transition: 0.5s;
 }
 
+.x-btn:hover {
+  width: 60px;
+  height: 60px;
+}
+
+.hamburger-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 70vh;
+}
+
+.hamburger-li {
+  font-size: 50px;
+}
+
+.hamburger-li:hover {
+  font-size: 60px;
+}
