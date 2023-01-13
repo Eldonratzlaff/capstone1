@@ -28,7 +28,7 @@ moreBtn.addEventListener('click', () => {
   if (speakerTogle === 0) {
     speakerTogle = 1;
     loadPages();
-  }  else {
+  } else {
     loadEmpty();
     speakerTogle = 0;
   }
@@ -40,5 +40,5 @@ hamburgeBtn.addEventListener('click', () => {
 });
 const xBtn = document.querySelector('.x-btn');
 xBtn.addEventListener('click', () => {
- hamburgerPage.classList.remove('display');
- });
+  hamburgerPage.classList.remove('display');
+});
