@@ -11,8 +11,6 @@ body {
   background-position: center;
   margin-top: 10vh;
   width: 100vw;
-
-  /* height: 100vh; */
   color: black;
   text-align: center;
 }
@@ -56,8 +54,6 @@ body {
 
 .hamburger {
   height: 10vh;
-
-  /* height: 40px; */
   width: 40px;
   margin-left: 80px;
   background-image: url(../capstone1/images/ic_menu.svg);
@@ -101,8 +97,6 @@ body {
   font-size: 18px;
   font-weight: 400;
   border: 6px solid white;
-
-  /* height: 80px; */
   width: 60vw;
 }
 
@@ -116,8 +110,6 @@ body {
 .time {
   margin: 1px;
 }
-
-/* program section */
 
 .program-section {
   padding: 1px;
@@ -212,8 +204,6 @@ h3 {
   min-width: 60px;
   height: 60px;
 }
-
-/* speakers section */
 
 .speakers-h3 {
   color: black;
