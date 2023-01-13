@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: white;
+    background-image: url(../capstone1/images/top-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* margin-top: 10vh; */
+    width: 100vw;
+  
+    /* height: 100vh; */
+    color: black;
+    text-align: center;
+  }
+
+
+
+.logo-btn{
+    display:inline-block;
+    background-image: url(../capstone1/images/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 140px;
+    height: 140px;
+  
+}
+
+.top-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+  }
+  
+  .hello-title {
+    font-size: 20px;
+    color: rgb(241, 127, 127);
+    margin-top: 120px;
+  }
+  
+  .conference-title {
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 8px;
+    margin-left: 10vw;
+    color: rgb(180, 54, 54);
+  }
+  
+  .title-p {
+    margin-top: 10px;
+    background-color: rgb(240, 237, 233);
+    opacity: 0.8;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    border: 6px solid white;
+  
+    /* height: 80px; */
+    width: 60vw;
+  }
+  
+  .top-date {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(83, 81, 81);
+  }
