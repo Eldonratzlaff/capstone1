@@ -64,6 +64,8 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo of my page"></a>
+> loom presentation video
+- [Loom presentation video](https://www.loom.com/share/86354b25f7b444bc93ecb54a867f3a21)
 
 > Add a link to your deployed project.
 
