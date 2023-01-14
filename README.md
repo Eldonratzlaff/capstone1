@@ -3,7 +3,7 @@
 
 <div align="center">
 
-  <img src="/pict-mobile/eldonazul1.jpeg" alt="logo" width="140"  height="auto" />
+  <img src="../capstone1/images/eldonazul1.jpeg" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>ELDON RATZLAFF CAPSTONE1 PROYECT</b></h3>
