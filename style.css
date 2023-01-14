@@ -69,7 +69,7 @@ body {
   color: white;
 }
 
-.navbar-link6{
+.navbar-link6 {
   margin-right: 3vw;
 }
 
@@ -247,11 +247,12 @@ body {
   color: black;
   font-size: 40px;
 }
-.divider{
+
+.divider {
   display: inline-block;
   border: 1px solid #ec5242;
   width: 10vw;
-  margin: 0px 0 0 30px;
+  margin: 0 0 0 30px;
 }
 
 .speakers-li {
@@ -348,12 +349,12 @@ body {
   background-image: url('images/img-airbnb.png');
 }
 
-.fooer{
+.fooer {
   background-color: black;
- padding: 5px;
+  padding: 5px;
 }
-.footer-div{
-  
+
+.footer-div {
   background-image: url('images/footer.png');
   background-repeat: no-repeat;
   background-position: center;

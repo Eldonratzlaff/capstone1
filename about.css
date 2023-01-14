@@ -43,8 +43,6 @@ body {
   margin-right: 30px;
 }
 
-
-
 .navbar-list {
   list-style: none;
   display: flex;
@@ -52,6 +50,7 @@ body {
   height: 10vh;
   align-items: center;
 }
+
 .logo-li {
   background-image: url('images/logo.png');
   background-repeat: no-repeat;
@@ -62,9 +61,10 @@ body {
   color: white;
 }
 
-.navbar-link6{
+.navbar-link6 {
   margin-right: 3vw;
 }
+
 .navbar-link {
   border: 5px solid transparent;
   text-decoration: none;
@@ -72,7 +72,6 @@ body {
   padding: 10px 5px;
   transition: 0.5s;
 }
-
 
 .navbar-link:hover {
   border: 5px solid red;
