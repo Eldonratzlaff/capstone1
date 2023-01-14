@@ -166,7 +166,7 @@ header {
 
 .foot-img2 {
   margin: 1vw;
-  background-image: url('images/aboutImg2.png');
+  background-image: url('../images/aboutImg2.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -181,7 +181,7 @@ header {
 }
 
 .footer-div {
-  background-image: url('images/footer.png');
+  background-image: url('../images/footer.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
