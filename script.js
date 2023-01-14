@@ -6,7 +6,7 @@ function loadEmpty() {
   speaker.innerHTML = '';
 }
 function loadPages() {
-  speaker.innerHTML = ` `;
+  speaker.innerHTML = '';
 }
 moreBtn.addEventListener('click', () => {
   if (speakerTogle === 0) {

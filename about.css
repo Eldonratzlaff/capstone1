@@ -7,82 +7,93 @@ body {
   background-color: white;
   background-image:
     url(
-      '../capstone1/images/top-bg.png');
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      width: 100vw;
-      color: black;
-      text-align: center;
-    }
-    .s-media{
-      background-color: black;
-      color: aliceblue;
-      display: flex;
-      justify-content: space-evenly;
-    }
-    .sicon{
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position: center;
-      height: 30px;
-      width: 30px;
-    }
-    .facebook{
-      background-image: url(../capstone1/images/icons8-facebook-f.svg) ;
-      margin-left: 50vw;
-    }
-    .twitter{
-      background-image: url(../capstone1/images/twitter.svg) ;
-    }
-    .Logout{
-      margin-right: 30px;
-    }
-    .logo-btn {
-      display: inline-block;
-      background-image: url(../capstone1/images/logo.png) ;
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position: center;
-      width: 190px;
-      height: 190px;
-    }
-    .top-section {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-top: 10vh;
-    }
-    .hello-title {
-      font-size: 20px;
-      color: rgb(241, 127, 127) ;
-      margin-top: 120px;
-    }
-    .conference-title {
-      font-size: 50px;
-      font-weight: 600;
-      margin-top: 8px;
-      color: rgb(180, 54, 54) ;
-    }
-    .title-p {
-      letter-spacing: 2px;
-      padding: 10px;
-      margin: 20px 0 30px 0;
-      background-color: rgb(240, 237, 233) ;
-      color: black;
-      font-size: 18px;
-      font-weight: 400;
-      border: 6px solid white;
-      width: 60vw;
-    }
-    .top-date {
-      margin-top: 10px;
-      font-size: 25px;
-      font-weight: 800;
-      color: rgb(83, 81, 81) ;
-    }
-    .time {
-      margin: 5px;
-    }
-;
+      '../capstone1/images/top-bg.png'
+    );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  color: black;
+  text-align: center;
+}
+
+.s-media {
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sicon {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 30px;
+  width: 30px;
+}
+
+.facebook {
+  background-image: url(../capstone1/images/icons8-facebook-f.svg);
+  margin-left: 50vw;
+}
+
+.twitter {
+  background-image: url(../capstone1/images/twitter.svg);
+}
+
+.Logout {
+  margin-right: 30px;
+}
+
+.logo-btn {
+  display: inline-block;
+  background-image: url(../capstone1/images/logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 190px;
+  height: 190px;
+}
+
+.top-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+.hello-title {
+  font-size: 20px;
+  color: rgb(241, 127, 127);
+  margin-top: 120px;
+}
+
+.conference-title {
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 8px;
+  color: rgb(180, 54, 54);
+}
+
+.title-p {
+  letter-spacing: 2px;
+  padding: 10px;
+  margin: 20px 0 30px 0;
+  background-color: rgb(240, 237, 233);
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  border: 6px solid white;
+  width: 60vw;
+}
+
+.top-date {
+  margin-top: 10px;
+  font-size: 25px;
+  font-weight: 800;
+  color: rgb(83, 81, 81);
+}
+
+.time {
+  margin: 5px;
 }
