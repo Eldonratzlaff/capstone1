@@ -65,7 +65,12 @@ body {
   background-size: contain;
   height: 10vh;
   width: 12vh;
+  margin: 6px 20vw 0 6vw;
   color: white;
+}
+
+.navbar-link6{
+  margin-right: 3vw;
 }
 
 .navbar-link {
@@ -142,11 +147,11 @@ body {
 
 .program-section {
   padding: 1px;
-  margin-top: 30px;
+  margin: 30px auto auto 20px;
   background-color: #272a31;
   background-image: url('images/prgogram-bg.png');
   background-size: auto;
-  width: 100vw;
+  width: 90vw;
 }
 
 .program-ul {
@@ -154,8 +159,7 @@ body {
   flex-direction: column;
 }
 
-.program-section,
-h3 {
+.program-section-h3 {
   font-size: 25px;
   margin: 50px;
   color: white;
@@ -167,8 +171,6 @@ h3 {
   align-items: center;
   background-color: rgb(87, 86, 86);
   background-image: url('images/prgogram-bg.png');
-  height: 90px;
-  width: 85vw;
   margin: 5px 5vw;
   transition: 0.5s;
 }
@@ -235,13 +237,21 @@ h3 {
 }
 
 .speakers-container {
+  padding: 1px;
   display: flex;
   flex-direction: column;
 }
 
 .speakers-h3 {
+  margin: 50px 0 0 10px;
   color: black;
   font-size: 40px;
+}
+.divider{
+  display: inline-block;
+  border: 1px solid #ec5242;
+  width: 10vw;
+  margin: 0px 0 0 30px;
 }
 
 .speakers-li {
@@ -336,6 +346,20 @@ h3 {
 
 .partner-li5 {
   background-image: url('images/img-airbnb.png');
+}
+
+.fooer{
+  background-color: black;
+ padding: 5px;
+}
+.footer-div{
+  
+  background-image: url('images/footer.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 80px;
+  padding: 6px;
 }
 
 .hamburger-page {

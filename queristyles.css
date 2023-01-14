@@ -32,4 +32,10 @@
     display: flex;
     flex-direction: row;
   }
+  .botom-btn{
+    display: none;
+  }
+  .fooer{
+    background-color: white;
+  }
 }
