@@ -38,12 +38,12 @@ body {
 }
 
 .facebook {
-  background-image: url(../capstone1/images/icons8-facebook-f.svg);
+  background-image: url('images/icons8-facebook-f.svg');
   margin-left: 50vw;
 }
 
 .twitter {
-  background-image: url(../capstone1/images/twitter.svg);
+  background-image: url('images/twitter.svg');
 }
 
 .Logout {
@@ -59,7 +59,7 @@ body {
 }
 
 .logo-li {
-  background-image: url(../capstone1/images/logo.png);
+  background-image: url('images/logo.png');
   background-repeat: no-repeat;
   background-size: contain;
   height: 10vh;
@@ -84,7 +84,7 @@ body {
   height: 10vh;
   width: 40px;
   margin-left: 80px;
-  background-image: url(../capstone1/images/ic_menu.svg);
+  background-image: url('images/ic_menu.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -143,7 +143,7 @@ body {
   padding: 1px;
   margin-top: 30px;
   background-color: rgb(70, 67, 67);
-  background-image: url(../capstone1/images/prgogram-bg.png);
+  background-image: url('images/prgogram-bg.png');
   background-size: auto;
   width: 100vw;
 }
@@ -165,7 +165,7 @@ h3 {
   justify-content: space-between;
   align-items: center;
   background-color: rgb(87, 86, 86);
-  background-image: url(../capstone1/images/prgogram-bg.png);
+  background-image: url('images/prgogram-bg.png');
   height: 90px;
   width: 85vw;
   margin: 5px 5vw;
@@ -194,7 +194,7 @@ h3 {
 }
 
 .program-lecture-icon {
-  background-image: url(../capstone1/images/prog-lecture.png);
+  background-image: url('images/prog-lecture.png');
   background-repeat: no-repeat;
   background-size: contain;
   min-width: 60px;
@@ -202,7 +202,7 @@ h3 {
 }
 
 .program-exibition {
-  background-image: url(../capstone1/images/exibition.png);
+  background-image: url('images/exibition.png');
   background-repeat: no-repeat;
   background-size: contain;
   min-width: 60px;
@@ -210,7 +210,7 @@ h3 {
 }
 
 .program-forum {
-  background-image: url(../capstone1/images/forum.png);
+  background-image: url('images/forum.png');
   background-repeat: no-repeat;
   background-size: contain;
   min-width: 60px;
@@ -218,7 +218,7 @@ h3 {
 }
 
 .program-workshop {
-  background-image: url(../capstone1/images/workshop.png);
+  background-image: url('images/workshop.png');
   background-repeat: no-repeat;
   background-size: contain;
   min-width: 60px;
@@ -226,7 +226,7 @@ h3 {
 }
 
 .program-cc {
-  background-image: url(../capstone1/images/cc.png);
+  background-image: url('images/cc.png');
   background-repeat: no-repeat;
   background-size: contain;
   min-width: 60px;
@@ -313,27 +313,27 @@ h3 {
 }
 
 .partner-li1 {
-  background-image: url(../capstone1/images/img-mozilla.png);
+  background-image: url('images/img-mozilla.png');
 }
 
 .partner-li2 {
-  background-image: url(../capstone1/images/img-google.png);
+  background-image: url('images/img-google.png');
 }
 
 .partner-li3 {
-  background-image: url(../capstone1/images/img-naver.png);
+  background-image: url('images/img-naver.png');
 }
 
 .partner-li4 {
-  background-image: url(../capstone1/images/img-daumkakao.png);
+  background-image: url('images/img-daumkakao.png');
 }
 
 .partner-li5 {
-  background-image: url(../capstone1/images/img-airbnb.png);
+  background-image: url('images/img-airbnb.png');
 }
 
 .hamburger-page {
-  background-image: url(../capstone1/images/top-bg.png);
+  background-image: url('images/top-bg.png');
   background-repeat: no-repeat;
   background-size: cover;
   padding: 1px;
@@ -354,7 +354,7 @@ h3 {
 
 .x-btn {
   margin: 4vh 0 0 60vw;
-  background-image: url(../capstone1/images/ic_cross.svg);
+  background-image: url('images/ic_cross.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
