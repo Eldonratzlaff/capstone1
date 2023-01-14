@@ -17,10 +17,38 @@ body {
 
 .header {
   position: fixed;
-  top: 0;
+  top: 0px;
   background-color: rgb(250, 255, 255);
   width: 100vw;
 }
+.s-media{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sicon{
+
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+
+height: 30px;
+width: 30px;
+}
+.facebook{
+background-image: url(../capstone1/images/icons8-facebook-f.svg);
+margin-left: 50vw;
+}
+.twitter{
+    background-image: url(../capstone1/images/twitter.svg);
+}
+.Logout{
+    margin-right: 30px;
+}
+
+
+
 
 .navbar-list {
   list-style: none;
@@ -31,7 +59,7 @@ body {
 }
 
 .logo-li {
-  background-image: url(../capstone1/images/logo.jpg);
+  background-image: url(../capstone1/images/logo.png);
   background-repeat: no-repeat;
   background-size: contain;
   height: 10vh;
@@ -233,25 +261,9 @@ h3 {
 
 .image {
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   width: 170px;
   height: 170px;
-}
-
-.speaker1 {
-  background-image: url(../capstone1/images/speaker1.png);
-}
-
-.speaker2 {
-  background-image: url(../capstone1/images/speaker2.png);
-}
-
-.speaker3 {
-  background-image: url(../capstone1/images/speaker3.png);
-}
-
-.speaker4 {
-  background-image: url(../capstone1/images/speaker4.png);
 }
 
 .botom-btn {
