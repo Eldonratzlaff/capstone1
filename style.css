@@ -38,7 +38,7 @@ body {
 }
 
 .facebook {
-  background-image: url(../images/icons8-facebook-f.svg);
+  background-image: url('images/icons8-facebook-f.svg');
   margin-left: 50vw;
 }
 
