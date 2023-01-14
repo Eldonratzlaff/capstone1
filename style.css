@@ -17,38 +17,38 @@ body {
 
 .header {
   position: fixed;
-  top: 0px;
+  top: 0;
   background-color: rgb(250, 255, 255);
   width: 100vw;
 }
-.s-media{
-    background-color: black;
-    color: aliceblue;
-    display: flex;
-    justify-content: space-evenly;
-}
-.sicon{
 
-background-repeat: no-repeat;
-background-size: contain;
-background-position: center;
-
-height: 30px;
-width: 30px;
-}
-.facebook{
-background-image: url(../capstone1/images/icons8-facebook-f.svg);
-margin-left: 50vw;
-}
-.twitter{
-    background-image: url(../capstone1/images/twitter.svg);
-}
-.Logout{
-    margin-right: 30px;
+.s-media {
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-evenly;
 }
 
+.sicon {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 30px;
+  width: 30px;
+}
 
+.facebook {
+  background-image: url(../capstone1/images/icons8-facebook-f.svg);
+  margin-left: 50vw;
+}
 
+.twitter {
+  background-image: url(../capstone1/images/twitter.svg);
+}
+
+.Logout {
+  margin-right: 30px;
+}
 
 .navbar-list {
   list-style: none;
