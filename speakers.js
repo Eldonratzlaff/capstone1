@@ -16,7 +16,7 @@ const speakerArr = [
     image: 'images/speaker3.png',
     name: 'SohYeong Noh',
     description: 'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.',
-  }
+  },
 ];
 const speakers = document.querySelector('.speaker-ul');
 let html1 = '';
@@ -29,7 +29,7 @@ speakerArr.forEach((speaker) => {
       <p>${speaker.description}</p>
       <p></p>
   </div>
-</li> `
+</li> `;
 });
 speakers.innerHTML = html1;
 
@@ -51,7 +51,7 @@ const addSpeakerArr = [
     image: 'images/speaker6.png',
     name: 'SohYeong Noh',
     description: 'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.',
-  }
+  },
 ];
 const speakerAdd = document.querySelector('.speaker-add');
 let html2 = '';
