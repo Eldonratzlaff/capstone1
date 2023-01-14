@@ -43,7 +43,7 @@ body {
 }
 
 .twitter {
-  background-image: url(../images/twitter.svg);
+  background-image: url('images/twitter.svg');
 }
 
 .Logout {
