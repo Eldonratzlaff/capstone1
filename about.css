@@ -15,6 +15,12 @@ body {
   text-align: center;
 }
 
+header {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
 .s-media {
   background-color: black;
   color: aliceblue;
@@ -41,6 +47,13 @@ body {
 
 .Logout {
   margin-right: 30px;
+}
+
+.navbar {
+  position: fixed;
+  top: 4vh;
+  width: 100vw;
+  background-color: white;
 }
 
 .navbar-list {
@@ -121,9 +134,50 @@ body {
   margin: 5px;
 }
 
+.past-summits-title {
+  font-size: 28px;
+}
+
+.past-sumits-line {
+  border: 1px solid red;
+  width: 5vw;
+  margin: 10px auto 10px auto;
+}
+
+.past-summits-coment {
+  font-size: 15px;
+  color: #504d4d;
+}
+
+.about-img-conteiner {
+  display: flex;
+  justify-content: center;
+}
+
+.foot-img1 {
+  margin: 1vw;
+  background-image: url('images/abaoutImg1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 40vw;
+  width: 40vw;
+}
+
+.foot-img2 {
+  margin: 1vw;
+  background-image: url('images/aboutImg2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 40vw;
+  width: 40vw;
+}
+
 .fooer {
-  background-color: black;
+  background-color: #272727;
   padding: 5px;
+  margin: 0 0 30px 0;
 }
 
 .footer-div {
