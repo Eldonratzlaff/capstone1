@@ -27,4 +27,9 @@
   .partner-section {
     display: block;
   }
+
+  .speakers-container{
+    display: flex;
+    flex-direction:row;
+  }
 }

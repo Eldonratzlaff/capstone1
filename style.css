@@ -1,7 +1,9 @@
 * {
+  font-family: 'Lato', sans-serif;
   margin: 0;
   padding: 0;
 }
+
 
 body {
   background-color: white;
@@ -106,7 +108,7 @@ body {
 
 .hello-title {
   font-size: 20px;
-  color: rgb(241, 127, 127);
+  color: #EC5242;
   margin-top: 120px;
 }
 
@@ -114,7 +116,7 @@ body {
   font-size: 50px;
   font-weight: 600;
   margin-top: 8px;
-  color: rgb(180, 54, 54);
+  color:  #EC5242;
 }
 
 .title-p {
@@ -142,7 +144,7 @@ body {
 .program-section {
   padding: 1px;
   margin-top: 30px;
-  background-color: rgb(70, 67, 67);
+  background-color:  #272A31;
   background-image: url('images/prgogram-bg.png');
   background-size: auto;
   width: 100vw;
@@ -179,7 +181,7 @@ h3 {
 .program-icons-div {
   width: 130px;
   margin: 0 3px;
-  color: rgb(228, 127, 127);
+  color:  #EC5242;
   font-size: 25px;
   font-weight: 900;
   text-align: left;
@@ -233,6 +235,10 @@ h3 {
   height: 60px;
 }
 
+.speakers-container{
+  display: flex;
+  flex-direction: column;
+}
 .speakers-h3 {
   color: black;
   font-size: 40px;
@@ -241,7 +247,7 @@ h3 {
 .speakers-li {
   background-color: rgb(247, 237, 225);
   display: flex;
-  height: 160px;
+  height: 190px;
   margin: 5px;
 }
 
@@ -254,7 +260,7 @@ h3 {
 
 .speaker-name {
   font-size: 18px;
-  color: brown;
+  color:  #EC5242;
   font-weight: 800;
   text-align: left;
 }
@@ -284,7 +290,7 @@ h3 {
 
 .partner-section {
   display: none;
-  background-color: rgb(56, 53, 53);
+  background-color: #272A31;
   height: 150px;
   width: 100vw;
 }

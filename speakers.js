@@ -22,7 +22,7 @@ const speakers = document.querySelector('.speaker-ul');
 let html1 = '';
 speakerArr.forEach((speaker) => {
   html1 += `
-  <<li class="speakers-li">
+  <li class="speakers-li">
   <div><img class="image" src="${speaker.image}" alt=""></div>
   <div class="speaker-content">
       <h5 class="speaker-name">${speaker.name}</h5>
@@ -57,7 +57,7 @@ const speakerAdd = document.querySelector('.speaker-add');
 let html2 = '';
 addSpeakerArr.forEach((speakerAdd) => {
   html2 += `
-  <<li class="speakers-li">
+  <li class="speakers-li">
   <div><img class="image" src="${speakerAdd.image}" alt=""></div>
   <div class="speaker-content">
       <h5 class="speaker-name">${speakerAdd.name}</h5>
