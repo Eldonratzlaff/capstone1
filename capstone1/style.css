@@ -1,0 +1,385 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  background-image: url('images/top-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 10vh;
+  width: 100vw;
+  color: black;
+  text-align: center;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  background-color: rgb(250, 255, 255);
+  width: 100vw;
+}
+
+.s-media {
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sicon {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 30px;
+  width: 30px;
+}
+
+.facebook {
+  background-image: url(../capstone1/images/icons8-facebook-f.svg);
+  margin-left: 50vw;
+}
+
+.twitter {
+  background-image: url(../capstone1/images/twitter.svg);
+}
+
+.Logout {
+  margin-right: 30px;
+}
+
+.navbar-list {
+  list-style: none;
+  display: none;
+  justify-content: space-evenly;
+  height: 10vh;
+  align-items: center;
+}
+
+.logo-li {
+  background-image: url(../capstone1/images/logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 10vh;
+  width: 12vh;
+  color: white;
+}
+
+.navbar-link {
+  border: 5px solid transparent;
+  text-decoration: none;
+  color: rgb(41, 44, 44);
+  padding: 10px 5px;
+  transition: 0.5s;
+}
+
+.navbar-link:hover {
+  border: 5px solid red;
+  color: red;
+}
+
+.hamburger {
+  height: 10vh;
+  width: 40px;
+  margin-left: 80px;
+  background-image: url(../capstone1/images/ic_menu.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  transition: 0.5s;
+}
+
+.hamburger:hover {
+  background-color: rgb(122, 125, 128);
+  opacity: 0.5;
+  box-shadow: 1px 1px 50px rgb(3, 3, 3);
+}
+
+.top-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+.hello-title {
+  font-size: 20px;
+  color: rgb(241, 127, 127);
+  margin-top: 120px;
+}
+
+.conference-title {
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 8px;
+  color: rgb(180, 54, 54);
+}
+
+.title-p {
+  margin-top: 10px;
+  background-color: rgb(240, 237, 233);
+  opacity: 0.8;
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  border: 6px solid white;
+  width: 60vw;
+}
+
+.top-date {
+  margin: 10px 0 10px 0;
+  font-size: 25px;
+  font-weight: 800;
+  color: rgb(83, 81, 81);
+}
+
+.time {
+  margin: 1px;
+}
+
+.program-section {
+  padding: 1px;
+  margin-top: 30px;
+  background-color: rgb(70, 67, 67);
+  background-image: url(../capstone1/images/prgogram-bg.png);
+  background-size: auto;
+  width: 100vw;
+}
+
+.program-ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.program-section,
+h3 {
+  font-size: 25px;
+  margin: 50px;
+  color: white;
+}
+
+.program-li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(87, 86, 86);
+  background-image: url(../capstone1/images/prgogram-bg.png);
+  height: 90px;
+  width: 85vw;
+  margin: 5px 5vw;
+  transition: 0.5s;
+}
+
+.program-li:hover {
+  background-color: rgb(66, 65, 65);
+}
+
+.program-icons-div {
+  width: 130px;
+  margin: 0 3px;
+  color: rgb(228, 127, 127);
+  font-size: 25px;
+  font-weight: 900;
+  text-align: left;
+}
+
+.program-icons-p {
+  margin: 0 5px;
+  color: rgb(255, 254, 254);
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.program-lecture-icon {
+  background-image: url(../capstone1/images/prog-lecture.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-width: 60px;
+  height: 60px;
+}
+
+.program-exibition {
+  background-image: url(../capstone1/images/exibition.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-width: 60px;
+  height: 60px;
+}
+
+.program-forum {
+  background-image: url(../capstone1/images/forum.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-width: 60px;
+  height: 60px;
+}
+
+.program-workshop {
+  background-image: url(../capstone1/images/workshop.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-width: 60px;
+  height: 60px;
+}
+
+.program-cc {
+  background-image: url(../capstone1/images/cc.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-width: 60px;
+  height: 60px;
+}
+
+.speakers-h3 {
+  color: black;
+  font-size: 40px;
+}
+
+.speakers-li {
+  background-color: rgb(247, 237, 225);
+  display: flex;
+  height: 160px;
+  margin: 5px;
+}
+
+.speaker-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 5px 5px 5px 20px;
+}
+
+.speaker-name {
+  font-size: 18px;
+  color: brown;
+  font-weight: 800;
+  text-align: left;
+}
+
+.image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 170px;
+  height: 170px;
+}
+
+.botom-btn {
+  color: black;
+  background-color: rgb(223, 221, 220);
+  font-weight: 900;
+  width: 60vw;
+  height: 60px;
+  margin: 50px 0 50px 0;
+  border-style: hidden;
+  transition: 0.5s;
+}
+
+.botom-btn:hover {
+  background-color: rgb(102, 100, 99);
+  box-shadow: 3px 3px 5px  rgb(133, 108, 95);
+}
+
+.partner-section {
+  display: none;
+  background-color: rgb(56, 53, 53);
+  height: 150px;
+  width: 100vw;
+}
+
+.partner-title {
+  display: inline-block;
+  text-align: center;
+}
+
+.partner-ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.partner-li1,
+.partner-li2,
+.partner-li3,
+.partner-li4,
+.partner-li5 {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 120px;
+  height: 120px;
+}
+
+.partner-li1 {
+  background-image: url(../capstone1/images/img-mozilla.png);
+}
+
+.partner-li2 {
+  background-image: url(../capstone1/images/img-google.png);
+}
+
+.partner-li3 {
+  background-image: url(../capstone1/images/img-naver.png);
+}
+
+.partner-li4 {
+  background-image: url(../capstone1/images/img-daumkakao.png);
+}
+
+.partner-li5 {
+  background-image: url(../capstone1/images/img-airbnb.png);
+}
+
+.hamburger-page {
+  background-image: url(../capstone1/images/top-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1px;
+  border-radius: 30px;
+  width: 80vw;
+  height: 80vh;
+  margin: 4vw 10vw;
+  display: none;
+  flex-direction: column;
+  background-color: antiquewhite;
+  position: fixed;
+  top: 0;
+}
+
+.display {
+  display: flex;
+}
+
+.x-btn {
+  margin: 4vh 0 0 60vw;
+  background-image: url(../capstone1/images/ic_cross.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+.x-btn:hover {
+  width: 60px;
+  height: 60px;
+}
+
+.hamburger-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 70vh;
+}
+
+.hamburger-li {
+  font-size: 50px;
+}
+
+.hamburger-li:hover {
+  font-size: 60px;
+}
