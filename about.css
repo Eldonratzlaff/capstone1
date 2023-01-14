@@ -120,8 +120,9 @@ body {
 .time {
   margin: 5px;
 }
+
 .fooer {
-background-color: black;
+  background-color: black;
   padding: 5px;
 }
 
@@ -133,8 +134,8 @@ background-color: black;
   height: 80px;
   padding: 6px;
 }
-@media only screen and (min-width: 768px) {
 
+@media only screen and (min-width: 768px) {
   .fooer {
     background-color: white;
   }
