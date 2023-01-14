@@ -8,7 +8,7 @@ body {
   background-color: white;
   background-image:
     url(
-      '../capstone1/images/top-bg.png'
+      'images/top-bg.png'
     );
   background-repeat: no-repeat;
   background-size: cover;
@@ -34,12 +34,12 @@ body {
 }
 
 .facebook {
-  background-image: url(../capstone1/images/icons8-facebook-f.svg);
+  background-image: url('images/icons8-facebook-f.svg');
   margin-left: 50vw;
 }
 
 .twitter {
-  background-image: url(../capstone1/images/twitter.svg);
+  background-image: url('images/twitter.svg');
 }
 
 .Logout {
@@ -48,7 +48,7 @@ body {
 
 .logo-btn {
   display: inline-block;
-  background-image: url(../capstone1/images/logo.png);
+  background-image: url('images/logo.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
