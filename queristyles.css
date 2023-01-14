@@ -28,8 +28,8 @@
     display: block;
   }
 
-  .speakers-container{
+  .speakers-container {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
   }
 }

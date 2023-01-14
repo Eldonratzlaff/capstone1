@@ -4,7 +4,6 @@
   padding: 0;
 }
 
-
 body {
   background-color: white;
   background-image: url('images/top-bg.png');
@@ -108,7 +107,7 @@ body {
 
 .hello-title {
   font-size: 20px;
-  color: #EC5242;
+  color: #ec5242;
   margin-top: 120px;
 }
 
@@ -116,7 +115,7 @@ body {
   font-size: 50px;
   font-weight: 600;
   margin-top: 8px;
-  color:  #EC5242;
+  color: #ec5242;
 }
 
 .title-p {
@@ -144,7 +143,7 @@ body {
 .program-section {
   padding: 1px;
   margin-top: 30px;
-  background-color:  #272A31;
+  background-color: #272a31;
   background-image: url('images/prgogram-bg.png');
   background-size: auto;
   width: 100vw;
@@ -181,7 +180,7 @@ h3 {
 .program-icons-div {
   width: 130px;
   margin: 0 3px;
-  color:  #EC5242;
+  color: #ec5242;
   font-size: 25px;
   font-weight: 900;
   text-align: left;
@@ -235,10 +234,11 @@ h3 {
   height: 60px;
 }
 
-.speakers-container{
+.speakers-container {
   display: flex;
   flex-direction: column;
 }
+
 .speakers-h3 {
   color: black;
   font-size: 40px;
@@ -260,7 +260,7 @@ h3 {
 
 .speaker-name {
   font-size: 18px;
-  color:  #EC5242;
+  color: #ec5242;
   font-weight: 800;
   text-align: left;
 }
@@ -290,7 +290,7 @@ h3 {
 
 .partner-section {
   display: none;
-  background-color: #272A31;
+  background-color: #272a31;
   height: 150px;
   width: 100vw;
 }
