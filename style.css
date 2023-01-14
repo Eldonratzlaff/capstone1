@@ -38,12 +38,12 @@ body {
 }
 
 .facebook {
-  background-image: url('images/icons8-facebook-f.svg');
+  background-image: url('/images/icons8-facebook-f.svg');
   margin-left: 50vw;
 }
 
 .twitter {
-  background-image: url('images/twitter.svg');
+  background-image: url('/images/twitter.svg');
 }
 
 .Logout {
@@ -59,7 +59,7 @@ body {
 }
 
 .logo-li {
-  background-image: url('images/logo.png');
+  background-image: url('/images/logo.png');
   background-repeat: no-repeat;
   background-size: contain;
   height: 10vh;
